@@ -1,0 +1,72 @@
+body {
+  font-family: 'Comic Sans MS', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffe4e1; /* Light pink background */
+  color: #fff;
+}
+
+nav {
+  background-color: #ffe4e1; /* Barbie pink background for navbar */
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white; /* White text for links */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h1 {
+  color: #ff69b4; /* Barbie pink for headings */
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border 2px solid #ff69b4; /* Barbie pink border */
+  border-radius: 5px;
+  width: 80%;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff69b4; /* Barbie pink background for button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff1493; /* Slightly darker pink on hover */
+}
+
+ul { 
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+ul li {
+  background-color: #ff69b4; /* Barbie pink for list items */
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+div {
+  padding: 20px;
+  text-align: center;
+}
