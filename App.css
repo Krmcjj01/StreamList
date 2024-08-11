@@ -1,0 +1,19 @@
+.App {
+  background-color: white;
+  color: pink;
+  font-family: "Barbie Font", sans-serif;
+}
+
+.user-events {
+  background-color: #ffe4e1;
+  border: 2px solid pink;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.material-icons {
+  color: pink;
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
