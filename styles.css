@@ -70,3 +70,18 @@ div {
   padding: 20px;
   text-align: center;
 }
+
+/* src/Movies.css */
+.movies-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movies-list div {
+  margin: 10px;
+  width: 200px;
+}
+
+.movies-list img {
+  width: 100%;
+}

@@ -30,4 +30,24 @@ export default function App() {
     <li><span className="material-icons">info</span> About</li>
     </ul>
     </nav>
-    
+  
+  // src/App.js
+  import React from 'react';
+  import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+  import Movies from './Movies';
+  import Cart from './Cart';
+  import Home from './Home'; // Your existing component
+
+  const App = () => {
+    return (
+      <Router>
+        <Switch>
+          <Route path="/movies" component={Movies} />
+          <Route path="/cart" component={Cart} />
+          <Route path="/" component={Home} />
+          </Switch>
+          </Router>
+    );
+  };
+
+  export default App;
