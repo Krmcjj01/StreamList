@@ -1,0 +1,20 @@
+{
+  "name": "StreamList",
+  "short_name": "StreamList",
+  "description": "A Barbie-themed video streaming app for EZTtechMovie.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ff69b4",
+  "theme_color": "#ff69b4",
+  "icons": [
+    {
+      "src": "icons/barbie-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/barbie-icon-512x512.png",
+      "sizes": "image/png"
+    }
+  ]
+}
